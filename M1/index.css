@@ -1,0 +1,346 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.black-strip {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    margin: 30px;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.nav-logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-logo h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    font-size: 2em;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+}
+
+.membership {
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.account {
+    color: white;
+    background-color: #F4511E;
+    border-radius: 50%;
+    border-style: none;
+    height: 30px;
+    width: 30px;
+}
+
+main {
+    display: flex;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    border-right: 1px solid lightgrey;
+}
+
+.page-sections {
+    text-transform: uppercase;
+    color: #757575;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    border-bottom: 1px solid lightgray;
+    margin: 30px;
+}
+
+.page-sections h5 {
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.card-author {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-author figure {
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    margin: 0;
+}
+
+.card-author img {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+.card-author h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.card-author h5 span {
+    color: #757575;
+    font-weight: 100;
+}
+
+.card-text h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.card-text p {
+    color: #757575;
+    margin: 10px 0 0 0;
+}
+
+.card-subtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-subtext-info {
+    color: #757575;
+    font-size: small;
+}
+
+.card-subtext button {
+    background-color: #F1F1F0;
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+    color: #757575;
+}
+
+.card-subtext-icons ul {
+    list-style: none;
+    display: flex;
+}
+
+.card-img {
+    width: 230px;
+    height: 150px;
+}
+
+.card-img img {
+    width: 230px;
+    height: 150px;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.socials-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.socials-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-logos img {
+    width: 30px;
+    height: 30px;
+}
+
+.socials-box button > img {
+    width: 15px;
+    height: 15px;
+}
+
+.socials-box button {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.socials-box a {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.socials-box a:visited {
+    color: #757575;
+}
+
+.topics-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.topics-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.topics-box button {
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.follow-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.follow-box h4 {
+    margin: 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile figure {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.profile figure > img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.profile h6 {
+    margin: 0;
+}
+
+.profile p {
+    margin: 0;
+    font-size: smaller;
+    color: #757575;
+}
+
+.profile-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-btn button {
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 50px;
+}
+
+.saved-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.saved-box h4 {
+    margin: 0 0 10px 0;
+}
+
+.saved-box a {
+    color: #1A8919;
+    text-decoration: none;
+    font-size: small;
+    
+}
+
+.saved-box a:visited {
+    color: #1A8919;
+    text-decoration: none;
+}
+
+footer {
+    text-align: right;
+    margin-right: 35px;
+    /* display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap; */
+}
+
+footer button {
+    background-color: white;
+    border: none;
+    color: #757575;
+}
+
+/* hover effects */
+.nav-links:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.page-sections h5:hover {
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom:1px solid #333;
+}
