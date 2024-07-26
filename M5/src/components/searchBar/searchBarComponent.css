@@ -1,0 +1,15 @@
+.searchBtn {
+  background-color: #135D66;
+  border-radius: 8px;
+  border-style: none;
+  color: #E3FEF7;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px 16px;
+}
+
+.searchBar {
+    border-radius: 8px;
+    border: 1px solid #135D66;
+    margin-right: 10px;
+}
